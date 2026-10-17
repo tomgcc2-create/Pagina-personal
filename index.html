@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDITAR: Cambia el título de la pestaña del navegador -->
+  <title>Tomás Gabriel Cabra Castro — Edición Especial</title>
+  <!-- Google Fonts: Bebas Neue, Playfair Display, Special Elite -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       PORTADA — CABECERA TIPO REVISTA TABLOID
+       ══════════════════════════════════════════════ -->
+  <header id="portada">
+    <div class="revista-seccion">
+
+      <!-- Barra superior con datos de edición -->
+      <div class="portada-topbar">
+        <!-- EDITAR: Cambia la fecha o el número de edición -->
+        <span>VOL. 1 &middot; N&ordm; 1 &middot; 2026</span>
+        <span>LA REVISTA QUE SÍ TE DICE LA VERDAD</span>
+      </div>
+
+    
+      <div class="portada-masthead">
+        <!-- EDITAR: Reemplaza [TU NOMBRE AQUÍ] por tu nombre completo o apodo -->
+        <span class="revista-nombre">Tomás Gabriel Cabra Castro</span>
+        <hr class="linea-doble" />
+        <!-- EDITAR: Puedes cambiar este subtítulo descriptivo -->
+        <p style="font-family: var(--fuente-maquina); font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.2rem 0;">
+          La historia que nadie te había contado
+        </p>
+      </div>
+
+      <!-- Cuerpo de portada: foto simulada + titular -->
+      <div class="portada-body">
+
+        <!-- Columna derecha: titular principal -->
+        <div class="portada-titular-bloque">
+          <!-- EDITAR: Cambia la etiqueta tipo "EXCLUSIVA" "ESPECIAL" etc. -->
+          <span class="portada-kicker">Exclusiva del año</span>
+          <hr class="linea-simple" />
+          <!-- EDITAR: Reemplaza [NOMBRE] en el titular por tu nombre o apodo -->
+          <h1 class="portada-titular">
+            ¿QUIÉN ES TOMÁS
+            REALMENTE?
+          </h1>
+          <hr class="linea-simple" />
+          <!-- EDITAR: Cambia el subtítulo de portada -->
+          <p class="portada-subtitular">
+            "La historia que te sorprenderá: sus gustos, sus sueños y lo que el futuro le reserva."
+          </p>
+          <div class="separador">★ ★ ★</div>
+          <!-- EDITAR: Cambia este texto de introducción corto de portada -->
+          <p style="font-family: var(--fuente-maquina); font-size: 0.78rem; line-height: 1.6;">
+            En esta edición especial te presentamos a <strong>Tomás Gabriel Cabra Castro</strong>:
+            quién es, qué hace con su tiempo libre, sus pasiones más profundas y los planes
+            que tiene para el futuro. 
+          </p>
+        </div>
+
+      </div><!-- / portada-body -->
+    </div><!-- / revista-seccion -->
+  </header>
+
+  <!-- ══════════════════════════════════════════════
+       NAVEGACIÓN TIPO ÍNDICE DE REVISTA
+       ══════════════════════════════════════════════ -->
+  <nav>
+    <button class="hamburger" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Quién Soy</a></li>
+        <li><a href="#gustos">Gustos</a></li>
+        <li><a href="#tiempo-libre">Tiempo Libre</a></li>
+        <li><a href="#futuro">El Futuro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════
+       SECCIÓN 1: QUIÉN SOY
+       ══════════════════════════════════════════════ -->
+  <section id="sobre-mi">
+    <div class="revista-seccion">
+
+      <div class="sec-titular-wrap anim-stamp">
+        <span class="sec-kicker">Reportaje Exclusivo</span>
+        <!-- EDITAR: Reemplaza [NOMBRE] por tu nombre en el titular de sección -->
+        <h2 class="sec-titular">EXCLUSIVO:<br />TOMÁS SE CONFIESA</h2>
+        <hr class="linea-doble" />
+      </div>
+
+      <!-- Grid: ficha de datos + texto entrevista -->
+      <div class="quien-soy-grid anim-fade">
+
+        <!-- Columna izquierda: ficha de datos -->
+        <div class="quien-soy-foto">
+          <div class="datos-ficha">
+            <div class="datos-ficha-titulo">¿Quién es?</div>
+            <div class="datos-ficha-row">
+              <span class="datos-ficha-label">Nombre</span>
+              <!-- EDITAR: Tu nombre completo -->
+              <span class="datos-ficha-valor">Tomás Gabriel Cabra Castro</span>
+            </div>
+            <div class="datos-ficha-row">
+              <span class="datos-ficha-label">EDAD</span>
+              <!-- EDITAR: Tu edad -->
+              <span class="datos-ficha-valor">16 años</span>
+            </div>
+            <div class="datos-ficha-row">
+              <span class="datos-ficha-label">CIUDAD</span>
+              <!-- EDITAR: Tu ciudad o región -->
+              <span class="datos-ficha-valor">Bogotá</span>
+            </div>
+            <div class="datos-ficha-row">
+              <span class="datos-ficha-label">Ocupación</span>
+              <!-- EDITAR: Tu ocupación, carrera o rol actual -->
+              <span class="datos-ficha-valor">Estudiante</span>
+            </div>
+            <div class="datos-ficha-row">
+              <span class="datos-ficha-label">Pasión</span>
+              <!-- EDITAR: Lo que más te apasiona -->
+              <span class="datos-ficha-valor">Escuchar musica</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna derecha: texto estilo entrevista -->
+        <div class="quien-soy-texto">
+
+          <div>
+            <p class="entrevista-q">— ¿Quién eres y de dónde vienes?</p>
+            <!-- EDITAR: Escribe una descripción de quién eres, de dónde eres, tu historia breve -->
+            <p class="entrevista-r">
+              Soy Tomás Cabra, tengo 16 años y naci en Bogotá, 
+              voy a graduarme este año y a empezar mi estudio profesional, 
+              he vivido en varios lugares pero actualmente me encuentro en Bogota
+              donde voy a estudiar y a trabajar. 
+            </p>
+          </div>
+
+          <div class="separador">— ★ —</div>
+
+          <div>
+            <p class="entrevista-q">— ¿Cómo te describirías a ti mismo/a?</p>
+            <!-- EDITAR: Describe tu personalidad, valores y forma de ser -->
+            <p class="entrevista-r" style="--first-letter-color: var(--color-negro);">
+              Soy una persona algo perezosa, me gusta leer y tener conocimiendo de las cosas,
+              en este momento estoy en un tecnico de SENA que me ayudara en mi futuro por el
+              simple hecho de tener mas conocimientos
+            </p>
+          </div>
+
+          <div class="separador">— ★ —</div>
+
+          <div>
+            <p class="entrevista-q">— ¿Qué te hace único/a?</p>
+            <!-- EDITAR: Cuenta qué te diferencia, tu talento especial o perspectiva única -->
+            <p class="entrevista-r">
+              Lo mas posible es que poco o nada me hagan unico, soy un ser
+              vivo completamente ordinario que no ha tenido mucha suerte 
+            </p>
+          </div>
+
+        </div>
+      </div><!-- / quien-soy-grid -->
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECCIÓN 2: GUSTOS PERSONALES
+       ══════════════════════════════════════════════ -->
+  <section id="gustos">
+    <div class="revista-seccion">
+
+      <div class="sec-titular-wrap anim-stamp">
+        <span class="sec-kicker">Especial</span>
+        <h2 class="sec-titular rojo">LOS GUSTOS<br />QUE LO DEFINEN</h2>
+        <hr class="linea-doble" />
+      </div>
+
+      <div class="gustos-grid">
+
+        <!-- GUSTO 1 -->
+        <div class="gusto-caja anim-fade">
+          <span class="gusto-emoji">🎵</span>
+          <h3 class="gusto-titulo">Música</h3>
+          <div class="gusto-img-wrap">
+            <img src="img/grasa.jpg" alt="La Grasa de las Capitales — Charly García" class="gusto-img-revista" />
+            <p class="gusto-img-caption">La Grasa de las Capitales</p>
+          </div>
+          <!-- EDITAR: Describe tu gusto por la música (géneros, artistas favoritos, etc.) -->
+          <p class="gusto-desc">Me gusta mucho el rock en general pero hay un album que destaca entre
+             mis gustos, de una banada Argentina llamada Seru Giran</p>
+        </div>
+
+        <!-- GUSTO 5 -->
+        <div class="gusto-caja anim-fade">
+          <!-- EDITAR: Cambia el emoji de este gusto -->
+          <span class="gusto-emoji">🎮</span>
+          <!-- EDITAR: Cambia el título de este gusto -->
+          <h3 class="gusto-titulo">Gaming</h3>
+          <!-- EDITAR: Pon aquí una imagen relacionada. Guarda el archivo en img/ y cambia el src -->
+          <div class="gusto-img-wrap">
+            <img src="img/pc.jpg" alt="Gaming" class="gusto-img-revista" onerror="this.style.display='none'" />
+            <p class="gusto-img-caption"><!-- EDITAR: pie de imagen --></p>
+          </div>
+          <!-- EDITAR: Describe tu relación con los videojuegos o cámbialo por otro gusto -->
+          <p class="gusto-desc">Suelo jugar bastantes videojuegos ya que tengo un pc que puede 
+            con la mayoria de ellos, pese a esto no tengo uno favorito me gustan los juegos de combate</p>
+        </div>
+
+        <!-- GUSTO 6 -->
+        <div class="gusto-caja anim-fade">
+          <!-- EDITAR: Cambia el emoji de este gusto -->
+          <span class="gusto-emoji">📚</span>
+          <!-- EDITAR: Cambia el título de este gusto -->
+          <h3 class="gusto-titulo">Lectura</h3>
+          <!-- EDITAR: Pon aquí una imagen relacionada. Guarda el archivo en img/ y cambia el src -->
+          <div class="gusto-img-wrap">
+            <img src="img/MM.webp" alt="Lectura" class="gusto-img-revista" onerror="this.style.display='none'" />
+            <p class="gusto-img-caption"><!-- EDITAR: pie de imagen --></p>
+          </div>
+          <!-- EDITAR: Describe tu gusto por la lectura (géneros, autor favorito) o cámbialo por otro -->
+          <p class="gusto-desc">Suelo leer a Mario Mendoza pues en mi casa
+             hay varios libros de el y me agrada su forma de escribir, tambien suelo leer .</p>
+        </div>
+
+      </div><!-- / gustos-grid -->
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECCIÓN 3: TIEMPO LIBRE
+       ══════════════════════════════════════════════ -->
+  <section id="tiempo-libre">
+    <div class="revista-seccion">
+
+      <div class="sec-titular-wrap anim-stamp">
+        <span class="sec-kicker">Reportaje de vida</span>
+        <h2 class="sec-titular">LO QUE<br />HACE EN SU TIEMPO LIBRE</h2>
+        <hr class="linea-doble" />
+      </div>
+
+      <div class="tiempo-libre-grid">
+
+        <!-- ACTIVIDAD 1 -->
+        <div class="tiempo-item anim-fade">
+          <span class="tiempo-num">1</span>
+          <div class="tiempo-texto-wrap">
+            <!-- EDITAR: Cambia el título de esta actividad -->
+            <h3 class="tiempo-titulo">🎬 Ver Series y Escuchar Musica</h3>
+            <!-- EDITAR: Describe qué ves, qué géneros te gustan, tu serie favorita -->
+            <p class="tiempo-desc">Suelo ver series bastante seguido, ademas de escuchar musica siempre que puedo.</p>
+          </div>
+        </div>
+
+        <!-- ACTIVIDAD 2 -->
+        <div class="tiempo-item anim-fade">
+          <span class="tiempo-num">2</span>
+          <div class="tiempo-texto-wrap">
+            <!-- EDITAR: Cambia el título de esta actividad -->
+            <h3 class="tiempo-titulo">🎮 Jugar videojuegos</h3>
+            <!-- EDITAR: Describe qué haces cuando sales con tus amigos -->
+            <p class="tiempo-desc">Como ya lo mencione antes suelo jugar bastantes videojuegos al tiempo, especialmente 
+              de combate o que pongan a prueba mis habilidades</p>
+          </div>
+        </div>
+      </div><!-- / tiempo-libre-grid -->
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECCIÓN 4: EL FUTURO
+       ══════════════════════════════════════════════ -->
+  <section id="futuro">
+    <div class="revista-seccion">
+
+      <div class="sec-titular-wrap anim-stamp">
+        <span class="sec-kicker">Especial Prospectiva</span>
+        <h2 class="sec-titular">EL FUTURO
+        <hr class="linea-doble" />
+      </div>
+
+      <!-- Tarjetas de metas -->
+      <div class="futuro-grid">
+
+        <!-- META 1 -->
+        <div class="futuro-card anim-fade">
+          <span class="futuro-card-num">META 01</span>
+          <!-- EDITAR: Cambia el emoji de esta meta -->
+          <span class="futuro-emoji">🚀</span>
+          <!-- EDITAR: Cambia el título de esta meta -->
+          <h3 class="futuro-titulo">Graduarme</h3>
+          <!-- EDITAR: Describe esta meta con más detalle -->
+          <p class="futuro-desc">Voy a graduarme de este colegio para poder seguir con mi proyecto de vida</p>
+        </div>
+
+        <!-- META 2 -->
+        <div class="futuro-card anim-fade">
+          <span class="futuro-card-num">META 02</span>
+          <!-- EDITAR: Cambia el emoji de esta meta -->
+          <span class="futuro-emoji">🌍</span>
+          <!-- EDITAR: Cambia el título de esta meta -->
+          <h3 class="futuro-titulo">titularme</h3>
+          <!-- EDITAR: Describe esta meta con más detalle -->
+          <p class="futuro-desc">Conseguir la doble titulación en la universidad nacional,
+             una en economia y otra en contaduria publica</p>
+        </div>
+
+        <!-- META 3 -->
+        <div class="futuro-card anim-fade">
+          <span class="futuro-card-num">META 03</span>
+          <!-- EDITAR: Cambia el emoji de esta meta -->
+          <span class="futuro-emoji">📖</span>
+          <!-- EDITAR: Cambia el título de esta meta -->
+          <h3 class="futuro-titulo">Viajar</h3>
+          <!-- EDITAR: Describe esta meta con más detalle -->
+          <p class="futuro-desc">Tras obtener un buen trabajo me gustaria poder viajar por el mundo </p>
+        </div>
+
+      </div><!-- / futuro-grid -->
+
+    </div>
+  </section>
+  <section id="contacto">
+    <div class="revista-seccion">
+
+      <div class="sec-titular-wrap anim-stamp">
+        <span class="sec-kicker">Clasificados</span>
+        <h2 class="sec-titular">¿QUIERES<br />CONTACTARME?</h2>
+        <hr class="linea-doble" />
+      </div>
+
+      <!-- Caja de anuncio clasificado -->
+      <div class="clasificado-box anim-fade">
+
+        <h3 class="clasificado-titulo">📋 SE BUSCA CONEXIÓN</h3>
+
+        <div class="clasificado-links">
+
+          <!-- EDITAR: Cambia el href="https://github.com/tu-usuario" por tu URL de GitHub -->
+          <a href="#" class="clasificado-link" target="_blank" rel="noopener noreferrer">
+            <span class="clasificado-link-icono">⌨️</span>
+            <span>GitHub — tomgcc2-create</span>
+          </a>
+          <a href="#" class="clasificado-link">
+            <span class="clasificado-link-icono">✉️</span>
+            <!-- EDITAR: Muestra también tu email visible en el texto -->
+            <span>Email — tomgcc2@gmail.com</span>
+          </a>
+    </div>
+  </section>
+  <footer>
+    <!-- EDITAR: Cambia [TU NOMBRE] y el año si lo deseas -->
+    <p class="footer-texto">
+      VOL. 1 &middot; N&Uacute;M. 1 &middot; EDICI&Oacute;N ESPECIAL &middot; 2026 &middot; TOMÁS GABRIEL CABRA CASTRO
+    </p>
+    <!-- EDITAR: Cambia el texto del pie de derechos -->
+    <p class="footer-sub">Todos los derechos reservados &copy; Tomás Gabriel Cabra Castro 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
